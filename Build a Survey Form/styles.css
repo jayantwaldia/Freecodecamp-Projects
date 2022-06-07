@@ -1,16 +1,19 @@
 body {
-    background-image: url(https://www.lighthouselabs.ca/uploads/post/open_graph_image/271/33443603251_85e9a5f1d4_h.jpg);
+    background-image: url(assets/bg.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-blend-mode: soft-light;
   }
 
 
+
 .container {
-    background-color: black;
-    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.800);
+    max-width: 500px;
     height: 600px;
-    margin: auto;
+    margin: 100px auto 0px auto;
+    
 }
 
 form{
@@ -20,11 +23,12 @@ form{
 
 input {
     display: flex;
-    margin: 20px 0px;
+    margin: 18px 0px;
     width: 100%;
     padding: 4px;
     font-size: 12px;
     font-family : monospace;
+    color: rgba(0, 0, 0, 0.806);
 }
 
 
@@ -32,5 +36,4 @@ label{
     color: white ;
     font-family: monospace;
     font-size: 16px
-
 }
