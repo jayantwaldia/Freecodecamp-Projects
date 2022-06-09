@@ -23,17 +23,26 @@ form{
 
 input {
     display: flex;
-    margin: 18px 0px;
+    margin: 14px 0px;
     width: 100%;
     padding: 4px;
     font-size: 12px;
     font-family : monospace;
-    color: rgba(0, 0, 0, 0.806);
+    font-weight: 200;
 }
 
 
 label{
     color: white ;
     font-family: monospace;
-    font-size: 16px
+    font-size: 14px
+}
+
+
+select{
+    width: 100%;
+    padding: 4px;
+    margin: 14px 0px;
+    font-size: 12px;
+    font-family : monospace;
 }
