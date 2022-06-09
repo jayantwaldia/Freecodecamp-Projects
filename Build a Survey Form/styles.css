@@ -3,46 +3,68 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-blend-mode: soft-light;
   }
 
-
-
-.container {
-    background-color: rgba(0, 0, 0, 0.800);
-    max-width: 500px;
-    height: 600px;
-    margin: 100px auto 0px auto;
-    
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-form{
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+label{
+    margin: 10px auto;
+}
+.container{
+    align-items: center;
+    color: white;
+    max-width: 500px;
+    height: 100%;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.632);
+    font-family: 'Poppins', sans-serif;
     padding: 30px;
 }
 
-
-input {
-    display: flex;
-    margin: 14px 0px;
-    width: 100%;
-    padding: 4px;
-    font-size: 12px;
-    font-family : monospace;
-    font-weight: 200;
+input{
+    margin: 10px 0px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 }
-
-
-label{
-    color: white ;
-    font-family: monospace;
-    font-size: 14px
-}
-
 
 select{
+    margin: 8px 0px;
     width: 100%;
-    padding: 4px;
-    margin: 14px 0px;
-    font-size: 12px;
-    font-family : monospace;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    background-color: #37AF65;
+    color: #F3F3F3 ;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px                ;
+}
+
+textarea{
+    width: 95.5%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+#name {
+    width: 97%;
+}
+#email{
+    width: 97%;
+}
+#number{
+    width: 97%;
 }

@@ -3,6 +3,9 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,32 +13,40 @@
 </head>
 
 <body>
-    <div class="bg">
-    <h1 id="title"></h1>
-    <p id="description"></p>
+    <h1 id="title">dojoCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
     <div class="container">
         <form id="survey-form">
-            <label id="name-label"> Name
-                <input id="name" type="text" placeholder="Enter Your Name" required>
-            </label>
-            <label id="email-label"> Email
-                <input id="email" required placeholder="Enter Your Email">
-            </label>
-            <label id="number-label"> Age (optional)
-                <input id="number" type="number" required placeholder="Age">
-            </label>
-            <label for="">What is your favorite feature of freeCodeCamp?
-                <select name="" id="dropdown">
-                    <option value="" disabled selected>Select your option</option>
-                    <option value="volvo">Challeges</option>
-                    <option value="saab">Projects</option>
-                    <option value="opel">Community</option>
-                    <option value="audi">Open Source</option>
-                </select>
-            </label>
-        </form>
+            <label id="name-label">Name</label><br />
+            <input id="name" type="text" placeholder="Enter your name" required><br />
+            <label id="email-label">Email</label><br />
+            <input id="email" type="email" placeholder="Enter your email" required><br />
+            <label id="number-label">Age</label><br />
+            <input id="number" type="number" min="5" max="99" placeholder="Enter your Age"><br />
+            <label>Would you recommend freeCodeCamp to a friend?</label><br />
+            <input type="radio" name="choice" value="Definitely">
+            <label>Definitely</label><br />
+            <input type="radio" name="choice" value="Maybe">
+            <label>Maybe</label><br />
+            <input type="radio" name="choice" value="Not sure">
+            <label>Not sure</label><br />
+        <label>What is your favorite feature of freeCodeCamp?</label><br />
+        <select name="" id="dropdown">
+            <option value="">Challenges</option>
+            <option value="">Projects</option>
+            <option value="">Community</option>
+            <option value="">Open Source</option>
+        </select>
+        <label>What would you like to see improved? (Check all that apply)</label><br />
+        <input type="checkbox" name="tick" value="suggest">
+        <label>0-30</label><br />
+        <input type="checkbox" name="tick" value="suggest">
+        <label>30-60</label><br />
+        <label for="w3review">Any comments or suggestions?</label></p>
+        <textarea id="w3review" name="w3review" rows="4" cols="50">Enter your comment here... </textarea>
+    <button id="submit" type="submit">Submit</button>
+    </form>
     </div>
-</div>
 </body>
 
 </html>
