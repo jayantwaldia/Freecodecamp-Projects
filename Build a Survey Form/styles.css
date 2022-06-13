@@ -3,22 +3,22 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-  }
+}
 
-h1{
+h1 {
     color: white;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
-p{
+p {
     color: white;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
 
-.container{
+.container {
     align-items: center;
     color: white;
     max-width: 400px;
@@ -29,40 +29,65 @@ p{
     padding: 30px;
 }
 
-input{
+input {
     margin: 15px 0px;
     padding: 5px;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
 
-select{
+select {
     margin: 8px 0px;
     width: 100%;
     padding: 5px;
     font-family: 'Poppins', sans-serif;
 }
 
-button{
+button {
     background-color: #37AF65;
-    color: #F3F3F3 ;
+    color: #F3F3F3;
     width: 100%;
     height: 40px;
-    margin-top: 20px                ;
+    margin-top: 20px;
 }
 
-textarea{
+textarea {
     width: 95.5%;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
 
 }
+
 #name {
     width: 97%;
 }
-#email{
+
+#email {
     width: 97%;
 }
-#number{
+
+#number {
     width: 97%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: hsl(0, 5%, 11%);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 1%, 14%);
 }
