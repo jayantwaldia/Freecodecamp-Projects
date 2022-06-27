@@ -1,16 +1,19 @@
 body {
-    margin: 0;
+    margin: 0px;
 }
 
 
 header {
     height: 50px;
+    position: fixed;
+    top: 0;
     padding: 10px;
+    width: 100%;
     display: grid;
-    justify-content: center;
     align-items: center;
     grid-template-columns: 2fr 1fr;
     background-color: orange;
+
 }
 
 
@@ -25,4 +28,9 @@ header {
 
 #header-img {
     height: 35px;
+}
+
+
+.form-div {
+    margin-top: 00px auto;
 }
