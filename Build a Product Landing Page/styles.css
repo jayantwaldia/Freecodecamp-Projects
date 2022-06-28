@@ -16,11 +16,16 @@ header {
 
 }
 
-#nav-link {
+#nav-bar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     cursor: pointer;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
 }
 
 #header-img {
@@ -80,7 +85,7 @@ header {
 }
 
 
-.features {
+#features {
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -109,7 +114,8 @@ header {
 }
 
 
-.pricing {
+
+#pricing {
     width: 80%;
     margin: auto;
     display: flex;
