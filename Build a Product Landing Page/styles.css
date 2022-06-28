@@ -50,7 +50,6 @@ header {
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -74,4 +73,33 @@ header {
 .video-div {
     margin: 50px auto;
     width: 720px;
+}
+
+
+.features {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.desc p {
+    font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.desc {
+    margin-left: 10px;
+    padding: 10px;
 }
