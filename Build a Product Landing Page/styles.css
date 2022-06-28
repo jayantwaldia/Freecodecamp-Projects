@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -34,9 +35,43 @@ header {
 .form-div {
     justify-content: center;
     text-align: center;
-    width: 600px;
-    margin: auto;
-    margin-top: 100px;
-    font-size: 16px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 200px auto 100px auto;
+    font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#form {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#email {
+    height: 30px;
+    padding: 5px;
+}
+
+#submit {
+    height: 45px;
+    margin: 30px auto;
+    display: block;
+    background-color: orange;
+    border: none;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+
+.video-div {
+    margin: 50px auto;
+    width: 720px;
 }
